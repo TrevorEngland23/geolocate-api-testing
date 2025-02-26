@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #03033cd4; /* Dark background */
+    color: #a8b2d1; /* Grayish-blue text */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title Styling */
+#title {
+    font-size: 32px;
+    color: #cdd6f4; /* Lighter blue for contrast */
+    margin-bottom: 20px;
+}
+
+/* Centered Content */
+#info {
+    max-width: 85%;
+    margin: 0 auto;
+    background: #5f628d; /* Dark gray-blue box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Table Styling */
+.table {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #3b3f5a; /* Slightly lighter border */
+    color: #3b3f5a
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #2e3146; /* Dark row color */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #a7a8af; /* Slightly darker for contrast */
+}
+
+@media (max-width: 768px) {
+    #info {
+        max-width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    #title {
+        font-size: 28px;
+    }
+}
