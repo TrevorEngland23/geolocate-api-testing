@@ -1,6 +1,6 @@
 # IP Geolocation API  
 
-[Sign Up Here]("https://www.abstractapi.com/api/ip-geolocation-api")  
+[Sign Up Here](https://www.abstractapi.com/api/ip-geolocation-api)  
 
 ## What is this?  
 
@@ -19,6 +19,7 @@ You'll need to create a .env file and specify your api key in there.
 Python: 
 
 ```bash
+cd Python
 python3 find_ip_location.py <IP_ADDRESS>
 ```  
 
